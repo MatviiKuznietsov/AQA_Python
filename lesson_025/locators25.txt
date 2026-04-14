@@ -1,0 +1,53 @@
+XPATH - locators
+1.  //input[@id='signinEmail']
+2.  //input[@id='signinPassword']
+3.  //button[text()='Sign In']
+4.  //a[text()='Sign up']
+5.  //button[@class='btn btn-primary']
+6.  //div[@class='header']//button[text()='Sign In']
+7.  //form//input[@type='email']
+8.  //form//input[@type='password']
+9.  //button[contains(@class,'btn-primary') and text()='Sign In']
+10. //a[contains(text(),'Garage')]
+11. //div[@class='sidebar']//a[text()='Garage']
+12. //div[@class='sidebar']//a[text()='Fuel expenses']
+13. //h1[text()='Garage']
+14. //button[@data-bs-target='#addCarModal']
+15. //div[@class='modal']//input[@id='addCarBrand']
+16. //div[@class='modal']//input[@id='addCarModel']
+17. //div[@class='modal']//button[text()='Add']
+18. //table//tr//td[contains(text(),'BMW')]
+19. //button[contains(@class,'btn-danger')]
+20. //button[contains(text(),'Edit')]
+21. //div[contains(@class,'alert')]
+22. //nav//a[text()='Profile']
+23. //nav//button[text()='Logout']
+24. //footer//a[contains(text(),'Contacts')]
+25. //div[@class='container']//h2[text()='Fuel expenses']
+
+CSS - locators
+1.  input#signinEmail
+2.  input#signinPassword
+3.  button.btn.btn-primary
+4.  a[href*='signup']
+5.  form input[type='email']
+6.  form input[type='password']
+7.  button[class*='btn-primary']
+8.  .header button.btn-primary
+9.  .sidebar a[href='/panel/garage']
+10. .sidebar a[href='/panel/expenses']
+11. h1
+12. button[data-bs-target='#addCarModal']
+13. .modal input#addCarBrand
+14. .modal input#addCarModel
+15. .modal button.btn-primary
+16. table tr td
+17. button.btn-danger
+18. button.btn-secondary
+19. .alert
+20. nav a[href='/panel/profile']
+21. nav button.btn-outline-danger
+22. footer a
+23. .container h2
+24. .row .col-md-6 input
+25. div.container div.row button.btn-primary
